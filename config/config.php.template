@@ -1,0 +1,101 @@
+<?php
+/* =================================================================================
+
+																	CONFIGURATION FILE 
+
+  =================================================================================*/
+/*
+	This is the main configuration file used for the application.
+*/
+
+/* =================================================================================
+																	Server Information
+  =================================================================================*/
+
+$domain_name  ='localhost';  //Sets the domain name of the server
+
+
+/* =================================================================================
+																	Application Settings
+  =================================================================================*/
+
+
+
+// -------------------------------- Debug Settings --------------------------------
+$debug_mode   = TRUE; //Turns DEBUG MODE on and off
+
+
+// -------------------------------- Email Settings --------------------------------
+
+//name of admin team
+$admin_team   = 'AdminTeam'; 
+
+//admin team email address
+$admin_email  = 'AdminTeam@domain.com';
+
+//SMTP server to send emails from
+$smtp_server  = 'smtpRelay@domain.com';
+
+//Display name / Email of admin team
+$from_email   = 'Automated LMS Message <AdminTeam@domain.com>'; 
+
+
+// ------------------------------ Session Page Limit ------------------------------
+
+//sets the default view for pagination
+//$default_page_limit = 24;
+
+
+
+
+
+
+// ------------------------------- TimeOut Settings -------------------------------
+
+//controls whether session will timeout or not
+$session_timeout = FALSE; 
+
+//Session timeout (in seconds)
+$timeout_after = 1200; 
+
+//sets the redirect after a session times out (not currently working)
+$timeout_redirect = '.?view=login&submit_error='.urlencode('You have been logged out due to inactivity');
+
+
+
+
+
+
+
+// ------------------------------- Carousel Settings -------------------------------
+
+//controls the speed of the carousel on home view (in seconds)
+$rotate_carousel = 20;
+
+
+
+
+
+
+
+// ------------------------------- Library Settings -------------------------------
+
+
+//tinyMCE
+
+//sets the TinyMCE variables for the formattable textarea
+$tinyMCE_settings = '
+
+selector: ".tinymce-textarea",
+skin: "lms",
+content_css: "css/tinyMCE_custom.css",
+statusbar: false,
+plugins: [
+    "advlist autolink lists link charmap print preview hr anchor pagebreak",
+    "searchreplace wordcount visualblocks visualchars code fullscreen",
+    "insertdatetime nonbreaking save table contextmenu directionality",
+    "emoticons template paste textcolor colorpicker textpattern"
+  ],
+entity_encoding : "raw"
+';
+  

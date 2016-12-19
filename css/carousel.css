@@ -1,0 +1,451 @@
+/*Common Carousel Stylings*/
+.carousel-inner{
+  height: 300px;
+  overflow: hidden;
+}
+.carousel-control i{
+  line-height: 300px;
+  font-size: 1em;
+  background-image: none;
+}
+.carousel-indicators{bottom: -10;}
+.ad-overlay{
+  height: 100%;
+  width:100.1%;
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 50px 0px 50px;
+  opacity: 0.5;
+  text-align: left;
+}
+.carousel-control.left,
+.carousel-control.right{
+  background-image: none;
+  width:5.1%;
+  background: #444;
+  opacity: 1.0;
+}
+.item{height: 300px;}
+.hero-ad,.reg-ad{
+  border:none;
+}
+
+
+
+/*========================carousel-tile-1========================*/
+.carousel-tile-1 .hero-ad p{
+  font-size: 1em;
+}
+.carousel-tile-1 .hero-ad{
+  top:0;
+  position: absolute;
+  z-index: 999;
+  /*float: left;*/
+  width:100%;
+  height: 300px;
+}
+.carousel-tile-1 .hero-ad .hero-ad-img{
+  top:0;
+  left: 0;
+  /*margin: auto 0;*/
+  padding-left: 5%;
+  position: absolute;
+  width: 50%;
+  height: 300px;
+}
+  .carousel-tile-1 .hero-ad .hero-ad-img img{
+    max-width: 40%;
+    max-height: 90%;
+  }
+.carousel-tile-1 .hero-ad.telecomm{
+  /*color:#fff;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+.carousel-tile-1 .hero-ad-text{
+  position: absolute;
+  width:50%;
+  height: 300px;
+  display: table;
+  left:50%;
+  padding-right: 15px;
+  text-align: left;
+}
+.carousel-tile-1 .hero-ad-text p{
+  position: relative;
+  height: 300px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 5%;
+}
+.carousel-tile-1 .hero-ad-text .hero-text{
+  /*font-weight: 700;*/
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+
+/*========================carousel-tile-2========================*/
+.carousel-tile-2 .hero-ad.hero-ad-left{
+  width:50%;
+  left:0;
+}
+.carousel-tile-2 .hero-ad.hero-ad-right{
+  width:50%;
+  right:0;
+}
+.carousel-tile-2 .hero-ad p{
+  font-size: 1em;
+}
+.carousel-tile-2 .hero-ad{
+  top:0;
+  position: absolute;
+  z-index: 999;
+  /*float: left;*/
+  width:50%;
+  height: 300px;
+}
+.carousel-tile-2 .hero-ad img{
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  max-width: 70%;
+  max-height: 60%;
+  width: auto;
+}
+.carousel-tile-2 .hero-ad.telecomm{
+  /*color:#fff;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+.carousel-tile-2 .hero-ad p{
+  /*top:0;*/
+  right: 30;
+  bottom: 25;
+  left: 30;
+  margin: auto;
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1em;
+  text-align: center;
+}
+
+
+/*========================carousel-tile-3========================*/
+.carousel-tile-3 .ad-overlay{
+  text-align: right;
+}
+.carousel-tile-3 .hero-ad.productivity{
+  /*color:#fff;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+.carousel-tile-3 .hero-ad{
+  top:0;
+  right:0;
+  position: absolute;
+  z-index: 999;
+  /*float: left;*/
+  width:60%;
+  height: 300px;
+}
+  .carousel-tile-3 .hero-ad img{
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    max-width: 50%;
+    max-height: 50%;
+    width: auto;
+  }
+  .carousel-tile-3 .hero-ad p{
+    /*top:0;*/
+    right: 30;
+    bottom: 30;
+    left: 30;
+    margin: auto;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+  }
+.carousel-tile-3 .reg-ad{
+  display: table;
+  position: absolute;
+  left:0;
+  width: 40%;
+  height: 150px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding:15px;
+}
+  .carousel-tile-3 .reg-ad p{
+    left:5%;
+    text-align: center;
+    position: relative;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: .5em;
+    padding:15px;
+  }
+.carousel-tile-3 .reg-ad img{
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    height: 80px;
+    width:auto;
+}
+.carousel-tile-3 .reg-ad.reg-ad-top{
+    top: 0;
+}
+.carousel-tile-3 .reg-ad.reg-ad-bottom{
+    top: 150;
+}
+
+
+
+
+/*========================carousel-tile-4========================*/
+.carousel-tile-4 .hero-ad.productivity{
+  /*color:#fff;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+}
+.carousel-tile-4 .hero-ad{
+  top:0;
+  left:0;
+  position: absolute;
+  z-index: 999;
+  /*float: left;*/
+  width:60%;
+  height: 300px;
+}
+  .carousel-tile-4 .hero-ad img{
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    max-width: 50%;
+    max-height: 70%;
+    width: auto;
+  }
+  .carousel-tile-4 .hero-ad p{
+    position:relative;
+    right: 30;
+    bottom: 30;
+    left: 30;
+    margin: auto;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    left:15%;
+  }
+.carousel-tile-4 .reg-ad{
+  display: table;
+  position: absolute;
+  right:0;
+  /*float: left;*/
+  width: 40%;
+  height: 100px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+  .carousel-tile-4 .reg-ad p{
+    text-align: center;
+    position: relative;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: .5em;
+    padding:15px;
+    left:-5%;
+  }
+.carousel-tile-4 .reg-ad img{
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    height: 80px;
+    width:auto;
+}
+.carousel-tile-4 .reg-ad.reg-ad-top{
+    top: 0;
+}
+.carousel-tile-4 .reg-ad.reg-ad-middle{
+    top: 100;
+}
+.carousel-tile-4 .reg-ad.reg-ad-bottom{
+    top: 200;
+}
+
+
+
+/*  xs    sm    md    lg */
+/* Auto ~62px ~81px ~97px*/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) col-1 ~ 62px */
+@media (min-width: 768px) {
+  /*========================Common========================*/
+  .carousel-control.left,
+  .carousel-control.right{
+    width:5%;
+  }
+
+  /*========================carousel-tile-1========================*/
+  .carousel-tile-1 .hero-ad-text .hero-text{
+    font-size: 2em;
+  }
+
+  /*========================carousel-tile-3========================*/
+  .carousel-tile-3 .hero-ad{
+    width: 65%;
+    right:0;
+  }
+  .carousel-tile-3 .reg-ad{
+    width:35.01%;
+    left:0;
+  }
+  .carousel-tile-3 .reg-ad p{
+    font-size: .75em;
+    left: 5%;
+  }
+  .carousel-tile-3 .reg-ad {
+    font-size: 1.5em;
+  }
+
+  /*========================carousel-tile-4========================*/
+  .carousel-tile-4 .hero-ad{
+    width: 65%;
+    left:0;
+  }
+  .carousel-tile-4 .reg-ad{
+    width:35%;
+    right:0;
+  }
+  .carousel-tile-4 .reg-ad p{
+    font-size: .75em;
+    left: -5%;
+  }
+  .carousel-tile-4 .reg-ad {
+    font-size: 1.5em;
+  }
+
+}
+
+/* Medium devices (desktops, 992px and up) col-1 ~ 81px*/
+@media (min-width: 992px) {
+  /*Common*/
+  .carousel-control.left,
+  .carousel-control.right{
+    width:2.5%;
+  }
+
+  /*========================carousel-tile-1========================*/
+  .carousel-tile-1 .hero-ad-text .hero-text{
+    font-size: 2.5em;
+  }
+
+
+
+
+  /*========================carousel-tile-2========================*/
+  .carousel-tile-2 .hero-ad.hero-ad-left{
+    width:50%;
+    /*left:0;*/
+  }
+  .carousel-tile-2 .hero-ad.hero-ad-right{
+    width:50%;
+    /*right:0;*/
+  }
+  .carousel-tile-2 .hero-ad p{
+    font-size: 2em;
+  }
+  .carousel-tile-4 .reg-ad p{
+    padding: 5px; 
+  }
+
+ /*========================carousel-tile-3========================*/
+  .carousel-tile-3 .hero-ad{
+    width: 70%;
+    /*left: 0;*/
+  }
+  .carousel-tile-3 .reg-ad{
+    width:30%;
+    /*right:0;*/
+  }
+  .carousel-tile-3 .reg-ad p{
+    font-size: 1em;
+    right: -2.5%;
+  }
+  .carousel-tile-3 .hero-ad p{
+    font-size: 2em;
+    /*right: -5%;*/
+  }
+
+
+
+  /*========================carousel-tile-4========================*/
+  .carousel-tile-4 .hero-ad{
+    width: 70%;
+    /*left: 0;*/
+  }
+  .carousel-tile-4 .reg-ad{
+    width:30%;
+    /*right:0;*/
+  }
+  .carousel-tile-4 .reg-ad p{
+    font-size: 1em;
+    left: -2.5%;
+  }
+  .carousel-tile-4 .hero-ad p{
+    left:7.5%;
+    font-size: 2em;
+    /*right: -5%;*/
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) col-1 ~ 97px */
+@media (min-width: 1200px) {
+
+
+  /*========================carousel-tile-4========================*/
+  .carousel-tile-4 .hero-ad{
+    width: 75%;
+  }
+  .carousel-tile-4 .reg-ad{
+    width:25%;
+  }
+
+}

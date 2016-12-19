@@ -1,0 +1,35 @@
+<?php
+//============================================================
+//				Create connection credentials
+//============================================================
+
+// database hostname
+$db_host = 'localhost';
+
+// database name
+$db_name = 'lms_database';
+
+// secure database for login account
+$sec_db_name = 'secure_login';
+
+// database access account name
+$db_user = 'sec_user';
+
+// database 
+$db_password = 'securePassword'; 
+
+
+//Create mysqli object
+//============================================================
+
+$mysqli= new mysqli($db_host,$db_user,$db_password,$db_name);
+$sec_mysqli = new mysqli($db_host,$db_user,$db_password,$sec_db_name);
+
+//============================================================
+//Error Handler
+//============================================================
+
+if($mysqli->connect_error){
+	printf("Connect failed; %s\n", $mysqli->connect_error);
+	exit();
+}
